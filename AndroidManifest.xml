@@ -13,5 +13,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.example.DragonAgeRpg.DisplayMessageActivity"
+                  android:label="@string/display_message_activity_title"
+                  android:parentActivityName=".HelloWorld"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HelloWorld"
+                />
+        </activity>
     </application>
 </manifest>
